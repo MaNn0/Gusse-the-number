@@ -11,7 +11,6 @@ let o = 0;
 
 function checkGuessedNumber() {
   const guess = Number(document.querySelector(".guess").value);
-  console.log("🚀 ~ guess:", guess);
   if (!guess) {
     // when there is no input
     message.textContent = "🤔 No Number";
@@ -41,7 +40,7 @@ function checkGuessedNumber() {
 }
 
 document.addEventListener("keydown", function (e) {
-  if (e.key === "Enter") checkGuessedNumber();
+  if (e.key === "Enter" && !btn.disabled) checkGuessedNumber();
 });
 
 btn.addEventListener("click", checkGuessedNumber);
