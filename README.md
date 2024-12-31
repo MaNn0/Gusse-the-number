@@ -34,7 +34,7 @@ How to Play 🎲
 
     Open the game in your browser.
     Guess a number between 1 and 20.
-    Click the Check! button to see if your guess is correct.
+    Click the Check! button or hit Enter key to see if your guess is correct.
     Feedback will be provided:
         "Too high!" if the guess is above the target number.
         "Too low!" if the guess is below the target number.
@@ -88,4 +88,4 @@ Acknowledgments 🙏
 
 Contact 📬
 
-For any questions or feedback, please contact MaNn0.
+For any questions or feedback, please contact [MaNn0](https://github.com/MaNn0).
